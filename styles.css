@@ -144,15 +144,15 @@ padding-left: 16px;
 
 .products {
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-gap: 20px;
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+gap: 10px;
 padding: 20px;
 }
 
 .product-card {
-width: 250px;
-margin: 10px;
-padding: 20px;
+width: 100%;
+margin: 5px;
+padding: 1%;
 background-color: #fff;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
